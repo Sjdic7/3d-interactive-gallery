@@ -88,7 +88,7 @@ const material = new ShaderMaterial({
 
 ### 🌐 Live Demo
 
-[View Demo Here](https://yourusername.github.io/3d-interactive-gallery)
+[View Demo Here](https://galleryarun.netlify.app/)
 
 ---
 
